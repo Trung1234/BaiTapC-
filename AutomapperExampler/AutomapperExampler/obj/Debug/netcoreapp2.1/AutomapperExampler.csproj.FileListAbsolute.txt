@@ -1,0 +1,11 @@
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\bin\Debug\netcoreapp2.1\AutomapperExampler.deps.json
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\bin\Debug\netcoreapp2.1\AutomapperExampler.runtimeconfig.json
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\bin\Debug\netcoreapp2.1\AutomapperExampler.runtimeconfig.dev.json
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\bin\Debug\netcoreapp2.1\AutomapperExampler.dll
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\obj\Debug\netcoreapp2.1\AutomapperExampler.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\obj\Debug\netcoreapp2.1\AutomapperExampler.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\obj\Debug\netcoreapp2.1\AutomapperExampler.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\bin\Debug\netcoreapp2.1\AutomapperExampler.pdb
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\obj\Debug\netcoreapp2.1\AutomapperExampler.dll
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\obj\Debug\netcoreapp2.1\AutomapperExampler.pdb
+C:\Users\LENOVO\Desktop\CSharp\BaiTapC-\AutomapperExampler\AutomapperExampler\obj\Debug\netcoreapp2.1\AutomapperExampler.csprojAssemblyReference.cache
