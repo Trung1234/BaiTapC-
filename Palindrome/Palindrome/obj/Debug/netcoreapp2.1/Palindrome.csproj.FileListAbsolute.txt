@@ -1,0 +1,11 @@
+E:\Trainning\Csharp1\Palindrome\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.deps.json
+E:\Trainning\Csharp1\Palindrome\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.runtimeconfig.json
+E:\Trainning\Csharp1\Palindrome\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.runtimeconfig.dev.json
+E:\Trainning\Csharp1\Palindrome\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.dll
+E:\Trainning\Csharp1\Palindrome\Palindrome\bin\Debug\netcoreapp2.1\Palindrome.pdb
+E:\Trainning\Csharp1\Palindrome\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.csprojAssemblyReference.cache
+E:\Trainning\Csharp1\Palindrome\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.csproj.CoreCompileInputs.cache
+E:\Trainning\Csharp1\Palindrome\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.AssemblyInfoInputs.cache
+E:\Trainning\Csharp1\Palindrome\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.AssemblyInfo.cs
+E:\Trainning\Csharp1\Palindrome\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.dll
+E:\Trainning\Csharp1\Palindrome\Palindrome\obj\Debug\netcoreapp2.1\Palindrome.pdb
