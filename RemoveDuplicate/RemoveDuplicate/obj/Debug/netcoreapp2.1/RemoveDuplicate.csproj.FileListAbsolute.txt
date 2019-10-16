@@ -1,0 +1,11 @@
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\obj\Debug\netcoreapp2.1\RemoveDuplicate.csprojAssemblyReference.cache
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\obj\Debug\netcoreapp2.1\RemoveDuplicate.csproj.CoreCompileInputs.cache
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\obj\Debug\netcoreapp2.1\RemoveDuplicate.AssemblyInfoInputs.cache
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\obj\Debug\netcoreapp2.1\RemoveDuplicate.AssemblyInfo.cs
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\bin\Debug\netcoreapp2.1\RemoveDuplicate.deps.json
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\bin\Debug\netcoreapp2.1\RemoveDuplicate.runtimeconfig.json
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\bin\Debug\netcoreapp2.1\RemoveDuplicate.runtimeconfig.dev.json
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\bin\Debug\netcoreapp2.1\RemoveDuplicate.dll
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\bin\Debug\netcoreapp2.1\RemoveDuplicate.pdb
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\obj\Debug\netcoreapp2.1\RemoveDuplicate.dll
+E:\Trainning\Csharp1\RemoveDuplicate\RemoveDuplicate\obj\Debug\netcoreapp2.1\RemoveDuplicate.pdb
