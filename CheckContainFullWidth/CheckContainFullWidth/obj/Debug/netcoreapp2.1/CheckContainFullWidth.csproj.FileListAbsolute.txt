@@ -1,0 +1,11 @@
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\bin\Debug\netcoreapp2.1\CheckContainFullWidth.deps.json
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\bin\Debug\netcoreapp2.1\CheckContainFullWidth.runtimeconfig.json
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\bin\Debug\netcoreapp2.1\CheckContainFullWidth.runtimeconfig.dev.json
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\bin\Debug\netcoreapp2.1\CheckContainFullWidth.dll
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\bin\Debug\netcoreapp2.1\CheckContainFullWidth.pdb
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\obj\Debug\netcoreapp2.1\CheckContainFullWidth.csprojAssemblyReference.cache
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\obj\Debug\netcoreapp2.1\CheckContainFullWidth.csproj.CoreCompileInputs.cache
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\obj\Debug\netcoreapp2.1\CheckContainFullWidth.AssemblyInfoInputs.cache
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\obj\Debug\netcoreapp2.1\CheckContainFullWidth.AssemblyInfo.cs
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\obj\Debug\netcoreapp2.1\CheckContainFullWidth.dll
+E:\Trainning\Csharp1\CheckContainFullWidth\CheckContainFullWidth\obj\Debug\netcoreapp2.1\CheckContainFullWidth.pdb
