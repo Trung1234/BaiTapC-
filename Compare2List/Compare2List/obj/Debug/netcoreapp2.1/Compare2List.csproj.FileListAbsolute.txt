@@ -1,0 +1,11 @@
+E:\Trainning\Csharp1\Compare2List\Compare2List\bin\Debug\netcoreapp2.1\Compare2List.deps.json
+E:\Trainning\Csharp1\Compare2List\Compare2List\bin\Debug\netcoreapp2.1\Compare2List.runtimeconfig.json
+E:\Trainning\Csharp1\Compare2List\Compare2List\bin\Debug\netcoreapp2.1\Compare2List.runtimeconfig.dev.json
+E:\Trainning\Csharp1\Compare2List\Compare2List\bin\Debug\netcoreapp2.1\Compare2List.dll
+E:\Trainning\Csharp1\Compare2List\Compare2List\bin\Debug\netcoreapp2.1\Compare2List.pdb
+E:\Trainning\Csharp1\Compare2List\Compare2List\obj\Debug\netcoreapp2.1\Compare2List.csprojAssemblyReference.cache
+E:\Trainning\Csharp1\Compare2List\Compare2List\obj\Debug\netcoreapp2.1\Compare2List.csproj.CoreCompileInputs.cache
+E:\Trainning\Csharp1\Compare2List\Compare2List\obj\Debug\netcoreapp2.1\Compare2List.AssemblyInfoInputs.cache
+E:\Trainning\Csharp1\Compare2List\Compare2List\obj\Debug\netcoreapp2.1\Compare2List.AssemblyInfo.cs
+E:\Trainning\Csharp1\Compare2List\Compare2List\obj\Debug\netcoreapp2.1\Compare2List.dll
+E:\Trainning\Csharp1\Compare2List\Compare2List\obj\Debug\netcoreapp2.1\Compare2List.pdb
