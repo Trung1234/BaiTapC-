@@ -1,0 +1,11 @@
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\bin\Debug\netcoreapp2.1\EllipsisedString.deps.json
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\bin\Debug\netcoreapp2.1\EllipsisedString.runtimeconfig.json
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\bin\Debug\netcoreapp2.1\EllipsisedString.runtimeconfig.dev.json
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\bin\Debug\netcoreapp2.1\EllipsisedString.dll
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\bin\Debug\netcoreapp2.1\EllipsisedString.pdb
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\obj\Debug\netcoreapp2.1\EllipsisedString.csprojAssemblyReference.cache
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\obj\Debug\netcoreapp2.1\EllipsisedString.csproj.CoreCompileInputs.cache
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\obj\Debug\netcoreapp2.1\EllipsisedString.AssemblyInfoInputs.cache
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\obj\Debug\netcoreapp2.1\EllipsisedString.AssemblyInfo.cs
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\obj\Debug\netcoreapp2.1\EllipsisedString.dll
+E:\Trainning\Csharp1\EllipsisedString\EllipsisedString\obj\Debug\netcoreapp2.1\EllipsisedString.pdb
