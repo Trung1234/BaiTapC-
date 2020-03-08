@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.exe
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.deps.json
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.runtimeconfig.json
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.dll
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.pdb
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.dll
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.pdb
+C:\Users\Admin\Desktop\Csharp1\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.csprojAssemblyReference.cache
