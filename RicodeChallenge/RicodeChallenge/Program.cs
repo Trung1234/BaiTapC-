@@ -15,8 +15,28 @@ namespace RicodeChallenge
             //Tập [1,2,3, ..., n] chứa n! hoán vị độc đáo
             //Bằng cách liệt kê và dán nhãn tất cả các hoán vị theo thứ tự, 
             //chúng tôi nhận được chuỗi sau cho n = 3:
-            
+
+            Console.WriteLine(Tribonacci(3));
             Console.ReadLine();
+        }
+
+        public static int Tribonacci(int n)
+        {
+            //Chuỗi Tribonacci được định nghĩa như sau:
+            //T0 = 0, T1 = 1, T2 = 1 và Tn +3 = Tn + Tn + 1 + Tn + 2 với n> = 0.
+            //Cho n, trả về giá trị của Tn.
+            if (n <= 0)
+            {
+                return 0;
+            }
+            else if (n <= 2)
+            {
+                return 1;
+            }
+            else
+            {
+                return Tribonacci(n - 2) + Tribonacci(n - 1) + Tribonacci(n - 3);
+            }
         }
         /// <summary>
         ///  Cho n và k, trả về chuỗi hoán vị thứ k.
