@@ -10,8 +10,25 @@ namespace RicodeChallenge
     {
         static void Main(string[] args)
         {
-            string[] result = FizzBuzz(15);
+            Console.WriteLine(LengthWord("Welcome "));
             Console.ReadLine();
+        }
+
+        /// <summary>
+        /// Cho một chuỗi s bao gồm các chữ cái in hoa / in thường và các ký tự khoảng trống . 
+        /// Trả về độ dài của từ cuối cùng trong chuỗi.
+        /// Nếu từ cuối cùng không tồn tại, trả về 0.
+        /// Lưu ý: Một từ được định nghĩa là một chuỗi ký tự chỉ bao gồm các ký tự không phải khoảng trắng.
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        public static int LengthWord(string s)
+        {
+            string[] arrays = s.Trim().Split(' ').ToArray();
+            int n = arrays.Count();
+            if (n <= 0)
+                return 0;      
+            return arrays[n - 1].Length;
         }
 
         /// <summary>
