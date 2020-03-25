@@ -10,12 +10,50 @@ namespace RicodeChallenge
     {
         static void Main(string[] args)
         {
-            int[] numbs = new int[] { 9, 9, 9, 9 };
-
-            Console.WriteLine(Plus(numbs));
+            string[] result = FizzBuzz(15);
             Console.ReadLine();
         }
-  
+
+        /// <summary>
+        /// Viết chương trình đưa ra biểu diễn chuỗi của các số từ 1 đến n.
+        /// Nhưng đối với bội số của ba thì nên xuất ra "Fizz" thay vì số lượng và cho bội số của năm đầu ra "Buzz".
+        /// Đối với các số là bội số của cả ba và năm đầu ra "FizzBuzz".
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static  string[] FizzBuzz(int n)
+        {
+            string[] result = new string[n];
+            for (int i = 0; i < n; i++)
+            {
+                int temp = i + 1;
+                if (temp % 15 == 0)
+                {
+                    result[i] = "FizzBuzz";
+                }
+                else if (temp % 3 == 0)
+                {
+                    result[i] = "Fizz";
+                }
+                else if (temp % 5 == 0)
+                {
+                    result[i] = "Buzz";
+                }
+                else
+                {
+                    result[i] = temp.ToString();
+                }
+            }
+            return result;
+        }
+
+        /// <summary>
+        /// Cho một mảng không rỗng để biểu thị một số nguyên không âm. Cộng thêm 1 đơn vị vào số nguyên được biểu thị.
+        /// Các chữ số được luu vào mảng sao cho số có ý nghĩ nhất nằm ở đầu, mỗi phần tử mảng lưu một chữ số.
+        /// Ngầm hiểu: Phần tử đầu của mảng đầu ra luôn khác 0 (Không có số nguyên dương nào cộng 1 bằng 0).
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
         public static int[] Plus(int[] nums)
         {
             int number = 0;
@@ -35,20 +73,14 @@ namespace RicodeChallenge
             }
             return result;
         }
+
         public static string ToLowerCase(string str)
         {
             StringBuilder result = new StringBuilder();
             for (int i = 0; i < str.Length; i++)
             {
-                if (Char.IsUpper(str[i]))
-                {
-                    result.Append(Char.ToLower(str[i]));
-                }
-                else
-                {
-                    result.Append(str[i]);
-                }
-                
+                result.Append(Char.ToLower(str[i]));
+
             }
             return result.ToString();
         }
