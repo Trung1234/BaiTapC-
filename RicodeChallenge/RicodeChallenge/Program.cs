@@ -10,51 +10,94 @@ namespace RicodeChallenge
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] { 9,9,9,9};
-            nums = Plus(nums);
-            foreach(var num in nums)
-            {
-                Console.WriteLine(num);
-            }
-            
+            Console.WriteLine(LengthWord("Welcome "));
             Console.ReadLine();
         }
 
-        public static int[] Plus(int[] nums)
+        /// <summary>
+        /// Cho một chuỗi s bao gồm các chữ cái in hoa / in thường và các ký tự khoảng trống . 
+        /// Trả về độ dài của từ cuối cùng trong chuỗi.
+        /// Nếu từ cuối cùng không tồn tại, trả về 0.
+        /// Lưu ý: Một từ được định nghĩa là một chuỗi ký tự chỉ bao gồm các ký tự không phải khoảng trắng.
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        public static int LengthWord(string s)
         {
-            int n = nums.Count();
-            for(int i = n - 1; i >= 0; i--)
+            string[] arrays = s.Trim().Split(' ').ToArray();
+            int n = arrays.Count();
+            if (n <= 0)
+                return 0;
+            return arrays[n - 1].Length;
+        }
+
+        /// <summary>
+        /// Viết chương trình đưa ra biểu diễn chuỗi của các số từ 1 đến n.
+        /// Nhưng đối với bội số của ba thì nên xuất ra "Fizz" thay vì số lượng và cho bội số của năm đầu ra "Buzz".
+        /// Đối với các số là bội số của cả ba và năm đầu ra "FizzBuzz".
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static string[] FizzBuzz(int n)
+        {
+            string[] result = new string[n];
+            for (int i = 0; i < n; i++)
             {
-                if (nums[i] == 9)
+                int temp = i + 1;
+                if (temp % 15 == 0)
                 {
-                    //if (i == 0)
-                    //{
-                    //    nums = nums.Concat(new int[] { 1 }).ToArray();
-                    //}
-                    nums[i] = 0;
-                    nums[i - 1]++;
+                    result[i] = "FizzBuzz";
+                }
+                else if (temp % 3 == 0)
+                {
+                    result[i] = "Fizz";
+                }
+                else if (temp % 5 == 0)
+                {
+                    result[i] = "Buzz";
                 }
                 else
                 {
-                    nums[i]++;
+                    result[i] = temp.ToString();
                 }
             }
-            return nums;
+            return result;
         }
+
+        /// <summary>
+        /// Cho một mảng không rỗng để biểu thị một số nguyên không âm. Cộng thêm 1 đơn vị vào số nguyên được biểu thị.
+        /// Các chữ số được luu vào mảng sao cho số có ý nghĩ nhất nằm ở đầu, mỗi phần tử mảng lưu một chữ số.
+        /// Ngầm hiểu: Phần tử đầu của mảng đầu ra luôn khác 0 (Không có số nguyên dương nào cộng 1 bằng 0).
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public static int[] Plus(int[] nums)
+        {
+            int number = 0;
+            int n = nums.Count();
+            for (int i = 0; i < n; i++)
+            {
+                number += (int)(Math.Pow(10, (n - i - 1)) * nums[i]);
+            }
+            number++;
+            n = number.ToString().Length;
+            int[] result = new int[n];
+
+            for (int i = 0; i < n; i++)
+            {
+                result[i] = (int)(number / Math.Pow(10, (n - i - 1)));
+                number = number - (int)(result[i] * Math.Pow(10, (n - i - 1)));
+            }
+            return result;
+        }
+
         public static string ToLowerCase(string str)
         {
             StringBuilder result = new StringBuilder();
             for (int i = 0; i < str.Length; i++)
             {
-                if (Char.IsUpper(str[i]))
-                {
-                    result.Append(Char.ToLower(str[i]));
-                }
-                else
-                {
-                    result.Append(str[i]);
-                }
-                
+                result.Append(Char.ToLower(str[i]));
+
             }
             return result.ToString();
         }
@@ -122,7 +165,7 @@ namespace RicodeChallenge
                 return 0;
             }
 
-            return nums[k-1];
+            return nums[k - 1];
         }
     }
 }
