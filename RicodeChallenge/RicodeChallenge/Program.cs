@@ -10,11 +10,37 @@ namespace RicodeChallenge
     {
         static void Main(string[] args)
         {
-
+            int[] nums = new int[] { 9,9,9,9};
+            nums = Plus(nums);
+            foreach(var num in nums)
+            {
+                Console.WriteLine(num);
+            }
+            
             Console.ReadLine();
         }
-  
 
+        public static int[] Plus(int[] nums)
+        {
+            int n = nums.Count();
+            for(int i = n - 1; i >= 0; i--)
+            {
+                if (nums[i] == 9)
+                {
+                    //if (i == 0)
+                    //{
+                    //    nums = nums.Concat(new int[] { 1 }).ToArray();
+                    //}
+                    nums[i] = 0;
+                    nums[i - 1]++;
+                }
+                else
+                {
+                    nums[i]++;
+                }
+            }
+            return nums;
+        }
         public static string ToLowerCase(string str)
         {
             StringBuilder result = new StringBuilder();
