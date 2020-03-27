@@ -11,8 +11,10 @@ namespace MeasureSpot
             //prepare input          
             List<string> data = new List<string>()
             { "A","B", "C","K","L","M","N",
-                "O","P", "Q","R","S","T","U", "V","W","AA","AB","AC","AF","AG" };
-           
+                "O","P", "Q","R","S","T",
+                "U", "V","W","X","Y","Z",
+                "AA","AB","AC","AF","AG" };
+            DateTime startTime = DateTime.Now;
             List<string> alphabets = GetAlphabetList();
 
             // create list measure from input and alphabets list
@@ -23,6 +25,8 @@ namespace MeasureSpot
             {
                 Console.WriteLine("Spot : {0} with Width = {1}", result.Spot, result.Width);
             }
+            Console.WriteLine("Total time : {0}",(DateTime.Now - startTime).TotalSeconds);
+
             Console.ReadLine();
         }
 
@@ -35,47 +39,46 @@ namespace MeasureSpot
             {
                 for (int j = 0; j < alphabets.Count(); j++)
                 {
-
-                    if (data[i].Length == 1)
+                    if (data[i].Equals(alphabets[j]))
                     {
-                        if (data[i].Equals(alphabets[j]))
+                        left +=  40;
+                        if (left > 880)
                         {
-                            left = left + 40;
-                            results.Add(new Measure
-                            {
-                                Spot = data[i],
-                                Width = left
-                            });
+                            left = 10;
                         }
-                    }
-                    else
-                    {
-                        if (data[i].Equals(alphabets[j].Last().ToString()))
+                        results.Add(new Measure
                         {
-                            left = left + 40;
-                            results.Add(new Measure
-                            {
-                                Spot = data[i],
-                                Width = left
-                            });
-                        }
-                    }
-                    if (left > 880)
-                    {
-                        left = 10;
-                    }
+                            Spot = data[i],
+                            Width = left
+                        });
+                    }                   
                 }
             }
 
             return results;
         }
 
+        /// <summary>
+        /// get list from A to Z and lists from {AA .. AZ} to {ZA .. ZZ}
+        /// </summary>
+        /// <returns></returns>
         private static List<string> GetAlphabetList()
         {
-            return new List<string>()
-            { "A","B", "C", "D","E","F",
-                "G","H","I","J","K","L","M","N",
-                "O","P", "Q","R","S","T","U", "V","W","X","Y","Z" };
+            List<string> result = new List<string>();
+            char index = 'A';
+            for (index = 'A'; index <= 'Z'; index++)
+                result.Add(index.ToString());
+
+            char i='A';
+            char j = 'A';
+            for (i = 'A'; i <= 'Z'; i++)
+            {
+                for (j = 'A'; j <= 'Z'; j++)
+                {
+                    result.Add(i.ToString()+j.ToString());
+                }
+            }
+            return result;
         }
     }
 }
