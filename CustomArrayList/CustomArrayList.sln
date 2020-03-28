@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortApp", "BubbleSortApp\BubbleSortApp.csproj", "{2873D38C-B147-4FE6-A733-298CE9907D91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomArrayList", "CustomArrayList\CustomArrayList.csproj", "{BE4A3F8F-F76D-49E0-A336-2D4723395E65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2873D38C-B147-4FE6-A733-298CE9907D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2873D38C-B147-4FE6-A733-298CE9907D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2873D38C-B147-4FE6-A733-298CE9907D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2873D38C-B147-4FE6-A733-298CE9907D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4A3F8F-F76D-49E0-A336-2D4723395E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4A3F8F-F76D-49E0-A336-2D4723395E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4A3F8F-F76D-49E0-A336-2D4723395E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4A3F8F-F76D-49E0-A336-2D4723395E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D0F0D11A-41BD-4772-B6D4-DCA6915DFB48}
+		SolutionGuid = {1D59F0F6-B048-42CA-8DEA-36F63784257E}
 	EndGlobalSection
 EndGlobal
